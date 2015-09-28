@@ -1,0 +1,16 @@
+---
+name: Teleport
+author: Bolts
+description: Teleport command. Teleport to another player.
+version: "1.0.0"
+api: [1.13.0]
+main: Bolts\main
+
+commands:
+    teleport:
+        description: Teleport to a player.
+        permission: application.command.teleport
+permissions:
+    application.command.teleport:
+        description: "Teleport to a player."
+        default: op
